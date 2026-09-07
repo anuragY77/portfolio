@@ -20,8 +20,36 @@ const spaceGrotesk = Space_Grotesk({
 });
 
 export const metadata: Metadata = {
-  title: "Anurag | Portfolio",
-  description: "Data Science & Full-Stack Developer Portfolio",
+  metadataBase: new URL("https://anurag-portfolio.vercel.app"),
+  title: "Anurag | Data Science & Full-Stack Developer",
+  description:
+    "Portfolio of Anurag — Data Science and full-stack developer building ML-driven products and premium web applications.",
+  openGraph: {
+    title: "Anurag | Data Science & Full-Stack Developer",
+    description:
+      "Portfolio of Anurag — Data Science and full-stack developer building ML-driven products and premium web applications.",
+    url: "https://anurag-portfolio.vercel.app",
+    siteName: "Anurag",
+    images: [
+      {
+        url: "/og-image.png",
+        width: 1200,
+        height: 630,
+      },
+    ],
+    locale: "en_US",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Anurag | Data Science & Full-Stack Developer",
+    description:
+      "Portfolio of Anurag — Data Science and full-stack developer building ML-driven products and premium web applications.",
+    images: ["/og-image.png"],
+  },
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 export default function RootLayout({
