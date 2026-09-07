@@ -33,8 +33,8 @@ export default function About() {
         transition={{ duration: 0.6, ease: "easeOut", delay: 0.1 }}
         className="font-display text-3xl font-semibold leading-snug sm:text-4xl"
       >
-        CSE (Data Science) student building at the intersection of ML and
-        full-stack engineering.
+        CSE (Data Science) student at ABES Engineering College, building
+        at the intersection of ML and full-stack engineering.
       </motion.h2>
       <motion.p
         initial={{ opacity: 0, y: 20 }}
@@ -45,7 +45,9 @@ export default function About() {
       >
         I work on data-driven products — from predictive models to
         production-ready web applications — with a focus on shipping things
-        that are actually useful, not just technically impressive.
+        that are actually useful, not just technically impressive. Currently
+        sharpening both sides: the analytical rigor of data science and the
+        craft of building polished, real-world software.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 20 }}
